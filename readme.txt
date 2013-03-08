@@ -12,7 +12,7 @@ Provides ability to use a shortcode to show or hide content depending on time of
 
 == Description ==
 
-Display upcoming Christian Science Bible Lesson topics in any widget-enabled sidebar on your site.
+Specify the start and end date / times you'd like content enclosed by the shortcode to be displayed during.  Optionally include a message or different content to display once that time period has passed.
 
 = Shortcodes: =
 
