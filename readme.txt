@@ -49,7 +49,9 @@ Shortcode parameters
 
 The plugin uses PHP's [strtotime()](http://php.net/manual/en/function.strtotime.php) function to decipher start and end times.  You can specify either a specific start and end date (i.e. June 27, 2015 10:00 am) or you can also specify a start and end time as days of the week (i.e. start_day_time="Sun 8:00 am" and end_day_time="Mon 8:00 pm".  This second method will display content starting Sunday at 8:00 am and stop displaying it the day after (Monday) at 8:00 pm.
 
-= Can I use either Visual or Text mode?
+Only end_day_time is required.  If start_day_time is omitted, now is used for the start_day_time, and end_day_time will determine when to stop displaying the content.
+
+= Can I use either Visual or Text mode? =
 
 Yes.  Both are supported, although if you're entering HTML / CSS as the content, you may want to edit the page using Text mode.
 
